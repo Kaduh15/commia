@@ -1,6 +1,3 @@
-Aqui está o README.md atualizado com a instrução para fazer o pull da IA desejada antes de utilizá-la:
-
-```markdown
 # Commia
 
 **Commia** é uma CLI que facilita a criação de mensagens de commit usando inteligência artificial. Ela gera automaticamente mensagens de commit com base nas alterações feitas no repositório, utilizando o modelo LLaMA 3.1 por padrão.
@@ -75,6 +72,3 @@ Sinta-se à vontade para contribuir com melhorias e novos recursos para a Commia
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
-```
-Agora, o README deixa claro que é necessário fazer o pull do modelo de IA desejado usando o Ollama antes de utilizá-lo com a Commia, e inclui um passo a passo para essa configuração.
-```
