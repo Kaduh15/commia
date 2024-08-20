@@ -63,22 +63,20 @@ function generateDiffSummary(status: StatusResult): string {
 
 function createPrompt(diff: string, lang: string): string {
   return `
-    Generate a commit message using the following diff as context. Ensure the message adheres to conventional commit guidelines and includes relevant emojis.
+    Generate a commit message using the following diff as context. Ensure the message adheres to conventional commit guidelines and includes relevant emojis. 
 
     Example format:
-      # initial commit
-      🚀 feat: add new feature
-      
-      Detailed description of the commit.
+      🚀 feat: add new feature for generating commit messages
+
+      📄 Detailed description of the commit.
 
       - Specific change details
-      - Additional relevant information
-      # end of commit message
+      - Additional relevant information about changes files
 
     Diff: ${diff}
 
     ${lang ? `Please write the commit message in ${lang}.` : ''}
 
-    return only the commit message and nothing else.
+    Return only the commit message and nothing else. Do not include explanations, examples, or additional context.
   `
 }
