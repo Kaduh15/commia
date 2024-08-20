@@ -15,8 +15,27 @@
   "bin": {
     "commia": "dist/bin/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ia",
+    "ai",
+    "commit",
+    "commia",
+    "git",
+    "cli",
+    "command",
+    "line",
+    "interface"
+  ],
+  "author": {
+    "name": "Kaduh15",
+    "url": "https://github.com/kaduh15"
+  },
+  "homepage": "https://github.com/Kaduh15/commia#README.MD",
+  "readme": "https://github.com/Kaduh15/commia#README.MD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaduh15/commia"
+  },
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
