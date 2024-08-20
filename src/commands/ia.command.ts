@@ -16,7 +16,7 @@ export async function iaCommand(program: Command) {
       'Generate a commit message based on the current repository diff',
     )
     .option('--lang <lang>', 'Language of the commit message', 'en-US')
-    .option('--model <model>', 'Model to use for generating text', 'gemma2')
+    .option('--model <model>', 'Model to use for generating text', 'llama3.1')
     .action(async (options) => {
       console.time('start')
       const { lang = 'en-US', model: modelOption = 'llama3.1' } = options
