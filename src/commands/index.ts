@@ -1,0 +1,1 @@
+export * from './ia.command'
