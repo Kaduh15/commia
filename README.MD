@@ -1,8 +1,8 @@
-# Commia
+# 🚀 Commia
 
 **Commia** é uma CLI que facilita a criação de mensagens de commit usando inteligência artificial. Ela gera automaticamente mensagens de commit com base nas alterações feitas no repositório, utilizando o modelo LLaMA 3.1 por padrão.
 
-## Instalação
+## ⚙️ Instalação
 
 ### Pré-requisitos
 
@@ -14,7 +14,7 @@
     ```
     Se quiser utilizar um modelo diferente, certifique-se de fazer o download do modelo desejado usando o comando `ollama pull <nome-do-modelo>` antes de utilizá-lo com a Commia.
 
-### Instalando a Commia
+### 📦 Instalando a Commia
 
 Depois de configurar o Ollama e o modelo de IA desejado, você pode instalar a CLI Commia de forma global usando npm:
 
@@ -24,7 +24,7 @@ npm install commia --global
 
 Você também pode usar outros gerenciadores de pacote como yarn ou pnpm.
 
-## Uso
+## 🚀 Uso
 
 1. No diretório do seu projeto que já possui um repositório Git iniciado, adicione todas as alterações ao stage com o comando:
     ```bash
@@ -37,13 +37,13 @@ Você também pode usar outros gerenciadores de pacote como yarn ou pnpm.
     ```
     A Commia irá gerar a mensagem de commit, realizar o commit automaticamente, e você poderá dar push para o repositório remoto.
 
-### Opções
+### ⚙️ Opções
 
 - `--lang <lang>`: Define o idioma da mensagem de commit (padrão: "en-US").
 - `--model <model>`: Define o modelo de IA a ser usado para gerar o texto. Por padrão, a Commia utiliza o modelo **LLaMA 3.1**. No entanto, você pode utilizar qualquer IA suportada pelo Ollama, alterando essa flag para o modelo desejado. **Lembre-se de fazer o pull do modelo escolhido usando o Ollama antes de utilizá-lo.**
 - `-h, --help`: Exibe a ajuda para o comando.
 
-### Exemplo de Uso
+### 🔍 Exemplo de Uso
 
 Para gerar uma mensagem de commit utilizando o modelo LLaMA 3.1:
 
@@ -65,10 +65,31 @@ Ou, para utilizar um outro modelo suportado pelo Ollama:
 
 Se a flag `--model` não for passada, o modelo **LLaMA 3.1** será usado por padrão.
 
-## Contribuições
+## 🤝 Contribuindo
 
-Sinta-se à vontade para contribuir com melhorias e novos recursos para a Commia. Abra uma issue ou envie um pull request no repositório.
+Contribuições são bem-vindas! Se você tiver ideias para novos recursos, correções de bugs ou melhorias gerais, fique à vontade para abrir uma issue ou enviar um pull request.
 
-## Licença
+### Como Contribuir
+
+1. **Fork** o repositório.
+2. Crie uma nova branch para a sua feature ou correção:
+    ```bash
+    git checkout -b minha-feature
+    ```
+3. Faça suas alterações e commit:
+    ```bash
+    git commit -m "Descrição das mudanças"
+    ```
+4. Envie suas alterações para o seu fork:
+    ```bash
+    git push origin minha-feature
+    ```
+5. Abra um pull request no repositório original.
+
+### 🐞 Reportando Problemas
+
+Se encontrar algum problema, por favor, abra uma issue detalhando o problema e como reproduzi-lo.
+
+## 📄 Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
